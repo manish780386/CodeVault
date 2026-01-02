@@ -1,0 +1,58 @@
+.js-container {
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.js-title {
+  margin-bottom: 15px;
+}
+
+.step-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.step-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-link {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cmd-box {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.code-box {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.copy-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+.copy-icon:hover {
+  color: #007bff;
+}

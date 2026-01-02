@@ -1,0 +1,56 @@
+.home-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Grid Layout */
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.language-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.language-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+/* Image + Text Row */
+.lang-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Logo Image */
+.lang-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+/* Name */
+.lang-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}

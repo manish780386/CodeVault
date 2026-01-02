@@ -1,0 +1,55 @@
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #0d1117;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #2c313a;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 32px;
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.about-features h2,
+.about-team h2 {
+  color: #58a6ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about-features ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.about-features li {
+  margin-bottom: 8px;
+}
+
+.about-team p {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .about-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 26px;
+  }
+}
