@@ -11,7 +11,7 @@ const languages = [
   { name: "Python", logo: "https://pluspng.com/img-png/python-logo-png-python-logo-png-img-640-480-free-transparent-python-png-900x480.jpg" },
   { name: "Java", logo: "https://www.bing.com/th/id/OIP.utDhNe56dbCfBZc30_8qpwHaHk" },
   { name: "Cpp", logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" },
-  { name: "C#", logo: "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg" },
+  { name: "CSharp", logo: "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg" },
   { name: "Go", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" },
   { name: "PHP", logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" },
   { name: "Ruby", logo: "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" },

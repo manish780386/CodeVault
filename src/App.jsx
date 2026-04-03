@@ -22,6 +22,7 @@ import DartDetails from "./language/DartDetails.jsx";
 import RDetails from "./language/RDetails.jsx";
 import ShellDetails from "./language/ShellDetails.jsx";
 import LuaDetails from "./language/LuaDetails.jsx";
+import CSharpDetails from "./language/CSharpDetails.jsx";
 
 
 export default function App() {
@@ -51,6 +52,7 @@ export default function App() {
         <Route path="/language/r" element={<RDetails />} />
         <Route path="/language/shell" element={<ShellDetails />} />
         <Route path="/language/lua" element={<LuaDetails />} />
+        <Route path="/language/csharp" element={<CSharpDetails />} />
         
 
         

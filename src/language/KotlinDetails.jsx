@@ -136,7 +136,7 @@ fun main() {
 
     // String templates
     println("Hello $name! Age: $age")
-    println("Pi = ${pi}")
+    println("Pi = $pi")
 
     // Null safety
     var nullableStr: String? = "Hello"
@@ -170,7 +170,7 @@ fun main() {
 
     // let, run, apply, also
     val result = nullableStr?.let {
-        "Length: ${it.length}"
+        "Length: \${it.length}"
     } ?: "Was null"
     println(result)
 }`} />
@@ -196,8 +196,8 @@ sealed class Result<out T> {
 }
 
 fun handleResult(result: Result<User>): String = when (result) {
-    is Result.Success -> "Welcome ${result.data.name}!"
-    is Result.Error   -> "Error ${result.code}: ${result.message}"
+    is Result.Success -> "Welcome \${result.data.name}!"
+    is Result.Error   -> "Error \${result.code}: \${result.message}"
     is Result.Loading -> "Loading..."
 }
 
@@ -249,14 +249,14 @@ fun main() = runBlocking {
     val time1 = System.currentTimeMillis()
     val user = fetchUser(1)
     val posts = fetchPosts(1)
-    println("Sequential: ${System.currentTimeMillis() - time1}ms")
+    println("Sequential: \${System.currentTimeMillis() - time1}ms")
 
     // Parallel with async
     val time2 = System.currentTimeMillis()
     val userDeferred = async { fetchUser(1) }
     val postsDeferred = async { fetchPosts(1) }
     val (u, p) = Pair(userDeferred.await(), postsDeferred.await())
-    println("Parallel: ${System.currentTimeMillis() - time2}ms")
+    println("Parallel: \${System.currentTimeMillis() - time2}ms")
     println(u)
     println(p)
 
