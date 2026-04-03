@@ -9,8 +9,13 @@ import HTMLDetails from "./language/HTMLDetails.jsx";
 import CSSDetails from "./language/CSSDetails.jsx";
 import JavascriptDetails from "./language/JavascriptDetails.jsx";
 import PythonDetails from "./language/PythonDetails.jsx";
-
+import JavaDetails from "./language/JavaDetails.jsx";
+import TypescriptDetails from "./language/TypescriptDetails.jsx";
+import CppDetails from "./language/CppDetails.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import  GoDetails from "./language/GoDetails.jsx";
+import KotlinDetails from "./language/KotlinDetails.jsx";
+import SwiftDetails from "./language/SwiftDetails.jsx";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -27,6 +32,12 @@ export default function App() {
         <Route path="/language/css" element={<CSSDetails />} />
         <Route path="/language/javascript" element={<JavascriptDetails />} />
         <Route path="/language/python" element={<PythonDetails />} />
+        <Route path="/language/java" element={<JavaDetails />} />
+        <Route path="/language/typescript" element={<TypescriptDetails />} />
+        <Route path="/language/cpp" element={<CppDetails />} />
+        <Route path="/language/go" element={<GoDetails />} />
+        <Route path="/language/kotlin" element={<KotlinDetails />} />
+        <Route path="/language/swift" element={<SwiftDetails />} />
         
 
         
