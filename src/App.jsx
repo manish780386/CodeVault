@@ -16,6 +16,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  GoDetails from "./language/GoDetails.jsx";
 import KotlinDetails from "./language/KotlinDetails.jsx";
 import SwiftDetails from "./language/SwiftDetails.jsx";
+import PHPDetails from "./language/PHPDetails.jsx";
+import RubyDetails from "./language/RubyDetails.jsx";
+import DartDetails from "./language/DartDetails.jsx";
+import RDetails from "./language/RDetails.jsx";
+import ShellDetails from "./language/ShellDetails.jsx";
+import LuaDetails from "./language/LuaDetails.jsx";
+
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -38,6 +45,12 @@ export default function App() {
         <Route path="/language/go" element={<GoDetails />} />
         <Route path="/language/kotlin" element={<KotlinDetails />} />
         <Route path="/language/swift" element={<SwiftDetails />} />
+        <Route path="/language/php" element={<PHPDetails />} />
+        <Route path="/language/ruby" element={<RubyDetails />} />
+        <Route path="/language/dart" element={<DartDetails />} />
+        <Route path="/language/r" element={<RDetails />} />
+        <Route path="/language/shell" element={<ShellDetails />} />
+        <Route path="/language/lua" element={<LuaDetails />} />
         
 
         

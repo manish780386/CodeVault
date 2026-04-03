@@ -136,7 +136,7 @@ fun main() {
 
     // String templates
     println("Hello $name! Age: $age")
-    println("Pi = ${Math.PI.toFloat()}")
+    println("Pi = ${pi}")
 
     // Null safety
     var nullableStr: String? = "Hello"
